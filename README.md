@@ -12,7 +12,7 @@ sklearn
 ```
 >>> labels = ... # some labels
 >>> prediction = clf.predict(data)  # some classifier
->>> scores = ScoringDict(labels=labels.flatten(), predictions=prediction.flatten()
+>>> scores = ScoringDict(labels=labels.flatten(), predictions=prediction.flatten())
 
 ...
 
